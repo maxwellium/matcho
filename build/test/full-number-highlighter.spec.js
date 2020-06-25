@@ -1,9 +1,7 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const full_number_highlighter_1 = require("../src/full-number-highlighter");
+import { fullNumberHighlighter } from '../src';
 describe('fullNumberHighlighter', () => {
     it('should find number separated by other chars', () => {
-        const highlighter = full_number_highlighter_1.fullNumberHighlighter('4567');
+        const highlighter = fullNumberHighlighter('4567');
         expect(highlighter('##12-34-56-78-90')).toEqual([
             { match: false, part: '##12-3' },
             { match: true, part: '4-56-7' },

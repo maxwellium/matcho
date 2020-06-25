@@ -1,4 +1,4 @@
-import { phraseHighlighter } from '../src/phrase-highlighter';
+import { phraseHighlighter } from '../src';
 
 describe( 'phraseHighlighter', () => {
 

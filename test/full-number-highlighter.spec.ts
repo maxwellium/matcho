@@ -1,4 +1,4 @@
-import { fullNumberHighlighter } from '../src/full-number-highlighter';
+import { fullNumberHighlighter } from '../src';
 
 describe( 'fullNumberHighlighter', () => {
 

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1593083955729" clover="3.2.0">
+  <project timestamp="1593083955729" name="All files">
+    <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="13" coveredmethods="11" elements="38" coveredelements="36" complexity="0" loc="21" ncloc="21" packages="1" files="6" classes="6"/>
+    <file name="create-highlight-regexp.ts" path="/home/maxwellium/code/max/matcho/src/create-highlight-regexp.ts">
+      <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="3" type="stmt"/>
+      <line num="5" count="4" type="stmt"/>
+    </file>
+    <file name="full-number-highlighter.ts" path="/home/maxwellium/code/max/matcho/src/full-number-highlighter.ts">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="3" type="stmt"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="5" count="3" type="stmt"/>
+    </file>
+    <file name="full-text-highlighter.ts" path="/home/maxwellium/code/max/matcho/src/full-text-highlighter.ts">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="3" type="stmt"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="5" count="3" type="stmt"/>
+    </file>
+    <file name="highlight-parts.ts" path="/home/maxwellium/code/max/matcho/src/highlight-parts.ts">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="6" count="4" type="stmt"/>
+      <line num="8" count="20" type="stmt"/>
+      <line num="9" count="20" type="stmt"/>
+    </file>
+    <file name="index.ts" path="/home/maxwellium/code/max/matcho/src/index.ts">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3"/>
+      <line num="1" count="3" type="stmt"/>
+      <line num="2" count="4" type="stmt"/>
+      <line num="3" count="4" type="stmt"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="5" count="5" type="stmt"/>
+    </file>
+    <file name="phrase-highlighter.ts" path="/home/maxwellium/code/max/matcho/src/phrase-highlighter.ts">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <line num="1" count="3" type="stmt"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="9" count="4" type="stmt"/>
+    </file>
+  </project>
+</coverage>

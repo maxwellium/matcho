@@ -1,4 +1,4 @@
-import { fullTextHighlighter } from '../src/full-text-highlighter';
+import { fullTextHighlighter } from '../src';
 
 describe( 'fullTextHighlighter', () => {
 

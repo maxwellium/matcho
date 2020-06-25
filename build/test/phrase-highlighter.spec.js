@@ -1,9 +1,7 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const phrase_highlighter_1 = require("../src/phrase-highlighter");
+import { phraseHighlighter } from '../src';
 describe('phraseHighlighter', () => {
     it('should find consecutive character sequences', () => {
-        const highlighter = phrase_highlighter_1.phraseHighlighter('man');
+        const highlighter = phraseHighlighter('man');
         expect(highlighter('man woman tom and Man')).toEqual([
             { match: true, part: 'man' },
             { match: false, part: ' wo' },
@@ -12,7 +10,7 @@ describe('phraseHighlighter', () => {
         ]);
     });
     it('should find case insensitive sequences', () => {
-        const highlighter = phrase_highlighter_1.phraseHighlighter('man', 'ui');
+        const highlighter = phraseHighlighter('man', 'ui');
         expect(highlighter('man woman tom and Man')).toEqual([
             { match: true, part: 'man' },
             { match: false, part: ' wo' },
