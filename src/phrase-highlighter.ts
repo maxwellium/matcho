@@ -1,6 +1,6 @@
-import { highlightParts } from './highlight-parts';
 import { createHighlightRegexp } from './create-highlight-regexp';
-import { THighlighterFunction } from './types';
+import { highlightParts } from './highlight-parts';
+import type { THighlighterFunction } from './types';
 
 export const phraseHighlighter = (
   word: string,

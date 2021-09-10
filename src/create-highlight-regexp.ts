@@ -3,5 +3,10 @@ export const createHighlightRegexp = (
   stopRegexpString = '',
   flags = 'u'
 ) => new RegExp(
-  `(${ findText.replace( /[|\\{}()[\]^$+*?.-]/g, '\\$&' ).split( '' ).join( stopRegexpString ) })`, flags
+  `(${ findText
+    .replace(/[|\\{}()[\]^$+*?.-]/g, '\\$&')
+    .split('')
+    .join(stopRegexpString)
+  })`,
+  flags
 );

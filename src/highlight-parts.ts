@@ -1,4 +1,4 @@
-import { IResultPart } from './types';
+import type { IResultPart } from './types';
 
 export const highlightParts = (
   fullText: string,
