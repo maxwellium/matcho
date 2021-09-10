@@ -5,6 +5,13 @@
   "author": "maxwellium",
   "license": "MIT",
   "main": "build/src/index.js",
+  "exports": {
+    "createHighlightRegexp": "./build/src/create-highlight-regexp.js",
+    "fullNumberHighlighter": "./build/src/full-number-highlighter.js",
+    "fullTextHighlighter": "./build/src/full-text-highlighter.js",
+    "highlightParts": "./build/src/highlight-parts.js",
+    "phraseHighlighter": "./build/src/phrase-highlighter.js"
+  },
   "types": "build/src/index.d.ts",
   "files": [
     "build/src"
@@ -15,11 +22,11 @@
     "test": "jest --ci --coverage"
   },
   "devDependencies": {
-    "@types/jest": "^25.2.3",
-    "@types/node": "^14.0.9",
-    "jest": "^26.0.1",
-    "ts-jest": "^26.1.0",
-    "typescript": "^3.4.3"
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.9.1",
+    "jest": "^27.1.1",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.2"
   },
   "repository": {
     "type": "git",
