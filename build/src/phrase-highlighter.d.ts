@@ -1,2 +1,2 @@
-import { THighlighterFunction } from './types';
+import type { THighlighterFunction } from './types';
 export declare const phraseHighlighter: (word: string, flags?: string, regexp?: RegExp) => THighlighterFunction;
