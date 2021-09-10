@@ -1,6 +1,6 @@
 {
   "name": "matcho",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "utility functions to identify and highlight texts, numbers and expressions in text",
   "author": "maxwellium",
   "license": "MIT",
